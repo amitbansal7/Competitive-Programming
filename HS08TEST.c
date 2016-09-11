@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// wrong answer
+
 int main()
 {
     float b,n,i;

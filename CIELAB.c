@@ -14,7 +14,7 @@ int main()
 
     if(k>=1 || k<=8)
         ans=ans +1;
-CIELAB
+
     else if(a-b-1==0)
         ans=3;
 

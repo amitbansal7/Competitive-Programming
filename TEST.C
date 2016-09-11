@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// right answer
 
  int main(){
      int i;

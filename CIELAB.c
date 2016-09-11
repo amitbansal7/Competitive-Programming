@@ -1,5 +1,5 @@
 
-//CIELAB username amitbansal7
+//codechef username amitbansal7
 // Not working
 #include<stdio.h>
 #include<stdlib.h>

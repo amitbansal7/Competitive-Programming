@@ -4,7 +4,7 @@
 // Correct Answer
 // codechef -- amitbansal7
  
-int ArrayGCD(int a[], int first, int last);
+int gcdfinder(int a[], int first, int last);
  
  int main()
 {

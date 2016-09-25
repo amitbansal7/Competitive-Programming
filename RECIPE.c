@@ -9,11 +9,16 @@
 
     scanf("%d",&t);
 
+    if(t<=100)
+    {
+
     for(i=1 ; i<=t ; i++)
     {
         f=0;
 
       scanf("%d",&n);
+      if(n>=2 && n<=50)
+      {
       for(j=0 ; j<n ; j++)
       {
         scanf("%d",&A[j]);
@@ -25,6 +30,8 @@
         if(A[j]%A[0]==0)
             f++;
 
+        printf("\n");
+
 
       if(f==n)
         for (j=0 ; j<n ; j++)
@@ -33,13 +40,12 @@
         else 
             for (j=0 ; j<n ; j ++)
                printf("%d ",A[j]);
-
-        printf("\n");
+       }
 
 
 
     }
+}
 
     return 0;
 }
- 

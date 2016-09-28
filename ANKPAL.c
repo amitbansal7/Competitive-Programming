@@ -12,6 +12,7 @@ int main()
 	int test,i,j,k,l,c,temp,a,b,tlength;
  
 	scanf("%s",s);
+  // if fgets(s,100,stdin) is used online judge gives out wrong answer
  
 	tlength = strlen(s);
  

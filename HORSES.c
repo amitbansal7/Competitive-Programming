@@ -20,13 +20,7 @@ main()
         for(k=0 ; k<horses-1 ;k++)
            for(j=i+1; j<horses ; j++)
         	 if((s[k]-s[j]) < diff)
-        	 {
-        	 	if(s[k]-s[j] > 0)
-        		   diff = s[k]-s[j];
-
-        		else
-        			continue;
-        	}
+        	     diff = s[k]-s[j];
 
         printf("%d\n",diff);
 	}

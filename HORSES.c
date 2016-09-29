@@ -26,17 +26,9 @@ main()
 
         		else
         			continue;
-
         	}
 
         printf("%d\n",diff);
-
-
 	}
-
-
-
-
-
 
 }

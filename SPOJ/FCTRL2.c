@@ -5,6 +5,7 @@
 // status - accepted
 //FCTRL2 - Small factorials
 
+
 int multiply(int x,int res[],int res_size)
 {
 	int carry =0 ;

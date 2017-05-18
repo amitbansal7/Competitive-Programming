@@ -43,7 +43,6 @@ int solve(int i,int j)
 		}
 
 		DP[i][j] = max(a,q);
-
 	}
 
 	return DP[i][j];
